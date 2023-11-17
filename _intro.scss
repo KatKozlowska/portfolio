@@ -1,0 +1,50 @@
+
+@use "./variables" as *;
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+
+    &__heading {
+        height:288px;
+        font-size: 60px;
+        font-weight: lighter;
+    }
+
+    &__text {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .intro {
+
+        display:flex;
+        flex-direction: column;
+        
+    
+        
+        &__heading {
+           
+            font-size: 128px;
+            align-items: center;
+            text-align: center;
+            font-weight:lighter;
+        }
+
+        &__text {
+            height: 128px;
+            width: 615px;
+            align-items: left ;
+            font-size: 20px;
+       }
+   }
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+@use "./variables" as *;
+
+.nav {
+    display: flex;
+    justify-content: center;
+    &__heading {
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+}
+div{
+    display:none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav {
+        padding: 66px 100px;
+        height:58px;
+        display: flex;
+        justify-content:space-between;
+        height:58px;
+      
+        &__button {
+            font-size: 20px;
+            visibility: visible;
+            padding:0 30px;
+            text-decoration: none;
+            font-family: $font-body;
+            color: black;
+            margin-top: 10px;
+       }
+       &__heading {
+        font-size: 48px;
+       }
+    }
+
+    div {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

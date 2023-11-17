@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&display=swap");
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav__heading {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+div {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 66px 100px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+  }
+  .nav__button {
+    font-size: 20px;
+    visibility: visible;
+    padding: 0 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 10px;
+  }
+  .nav__heading {
+    font-size: 48px;
+  }
+  div {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.intro__heading {
+  height: 288px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.intro__text {
+  font-size: 23px;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro__heading {
+    font-size: 128px;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .intro__text {
+    height: 128px;
+    width: 615px;
+    align-items: left;
+    font-size: 20px;
+  }
+}
+section {
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.about__heading {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.about__img {
+  padding: 40px 0;
+  align-items: center;
+  width: 85vw;
+}
+.about__text {
+  margin: 40px 0;
+  font-size: 23px;
+}
+
+.skills {
+  display: none;
+}
+
+.portfolio__heading {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+.project__heading {
+  font-family: Cormorant, serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: sans-serif;
+}/*# sourceMappingURL=main.css.map */

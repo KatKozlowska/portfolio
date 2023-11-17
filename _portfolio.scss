@@ -1,0 +1,19 @@
+@use "./variables" as *;
+
+.portfolio {
+    &__heading {
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+}
+
+.project { 
+    display: flex;
+    flex-direction: column;
+
+    &__heading {
+        font-family: $font-headings;
+        text-transform: uppercase;
+    }
+
+    }

@@ -1,0 +1,15 @@
+
+@use "./variables" as *;
+@use "./navigation" ;
+@use "./intro" ;
+@use "./about" ;
+@use "./skills";
+@use "./portfolio";
+
+
+//placeholder photo sizing- can be deleted once proper photo used 
+
+
+ p {
+    font-family: $font-body;
+ }
