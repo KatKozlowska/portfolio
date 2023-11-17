@@ -1,0 +1,19 @@
+@use "./variables" as *;
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    width: 100vw;
+    background-color: black;
+    
+}
+
+.button {
+    margin: 3px;
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+}

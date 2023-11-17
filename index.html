@@ -26,7 +26,7 @@
 
 <section class="about">
     <h3 class="about about__heading">About.</h3>
-    <img src="canada.jpg" alt="placeholder image" class="about about__img"> </img>
+    <img src="references/canada.jpg" alt="placeholder image" class="about about__img"> </img>
     <p class="about about__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Ut praesentium maxime deserunt sint dignissimos voluptatem 
          aperiam voluptatibus, voluptas vel distinctio ratione vero 
@@ -53,35 +53,41 @@
 <section class="portfolio">
     <h3 class="portfolio portfolio__heading">Portfolio.</h3>
         <div class="project">
-            <img src="./blank.jpg" alt="image placeholder"class="project project__one"></img>
+            <img src="references/blank.jpg" alt="image placeholder"class="portfolio portfolio__img"></img>
             <h3 class="project project__heading">Project 1</h3>
-            <button class="project project__button"> #</button>
-            <button class="project project__button--active">#</button>  
+            <div class="right">
+            <button class="project project__button project__button--img"> <img src="references/clarity_eye-line.png"></button>
+            <button class="project project__button">#</button> 
+            </div> 
         </div>
         <div class="project">
-            <img src="./blank.jpg" alt="image placeholder"class="project project__two"></img>
+            <img src="references/blank.jpg" alt="image placeholder"class="portfolio portfolio__img"></img>
             <h3 class="project project__heading">Project 2</h3>
-            <button class="project project__button"> #</button>
-            <button class=" project__button project__button--active">#</button>
+            <div class="right">
+            <button class="project project__button"></button>
+            <button class=" project project__button">#</button>
+            </div>
         </div>
         <div class="project">
-            <img src="./blank.jpg" alt="image placeholder"class="project project__three"></img>
+            <img src="references/blank.jpg" alt="image placeholder"class="portfolio portfolio__img"></img>
             <h3 class="project project__heading">Project 3</h3>
+            <div class="right">
             <button class="project project__button"> #</button>
-            <button class="project project__button--active">#</button>
+            <button class="project project__button">#</button>
+            </div>
         </div>
 </section>
 
-<section>
-    <h3>Get in touch.</h3>
-    <button>contact</button>
+<section class="contact">
+    <h3 class="contact contact__heading">Get in touch.</h3>
+    <button class="contact contact__button">contact</button>
 </section>
 
 
 <footer>
-    <button>Linked in</button>
-    <button>Github</button>
-    <button>CV</button>
+    <button class="button button__linked"> <img src="references/cib_linkedin-in.png"></button>
+    <button class="button button__github"><img src="references/ant-design_github-filled.png"></button>
+    <button class="button button__cv"><img src="references/academicons_cv.png"></button>
 
 </footer>
 </html>

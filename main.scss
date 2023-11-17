@@ -5,11 +5,9 @@
 @use "./about" ;
 @use "./skills";
 @use "./portfolio";
+@use "./contact";
+@use "./footer";
 
 
 //placeholder photo sizing- can be deleted once proper photo used 
 
-
- p {
-    font-family: $font-body;
- }
