@@ -55,9 +55,13 @@
     align-items: center;
 }
 
+@media screen and (min-width:768px) {
+    .portfolio {
+      display:grid;
+      flex-wrap: wrap;
 
-
-
-    
-
-
+    &__img {
+        width:100px;
+    }
+    }
+}

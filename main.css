@@ -150,6 +150,15 @@ section {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio {
+    display: grid;
+    flex-wrap: wrap;
+  }
+  .portfolio__img {
+    width: 100px;
+  }
+}
 .contact {
   display: flex;
   flex-direction: column;
