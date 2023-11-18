@@ -141,10 +141,11 @@ section {
   font-family: Cormorant, serif;
   text-transform: uppercase;
   font-size: 32px;
+  width: 60%;
 }
 
 .right {
-  width: 38vw;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -153,10 +154,19 @@ section {
 @media screen and (min-width: 768px) {
   .portfolio {
     display: grid;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 3%;
+    background-color: red;
+    color: white;
   }
   .portfolio__img {
-    width: 100px;
+    width: 100%;
+  }
+  .project__heading {
+    font-family: Cormorant, serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 70%;
   }
 }
 .contact {
