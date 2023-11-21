@@ -48,6 +48,16 @@
        
     }
 
+    &__four {
+        display:none;
+    }
+    &__five {
+        display:none;
+    }
+    &__six {
+        display:none;
+    }
+
 }
 
 .right {
@@ -61,17 +71,17 @@
     .portfolio {
 
       display:grid;
-      grid-template-columns:1fr 1fr 1fr;
+      grid-template-columns:33% 33% 33%;
       grid-template-rows:100px 500px 500px;
-      gap: 15px;
-      margin: 20px;
+      gap: 2%;
+      padding: 120px;
 
       &__heading {
         grid-column: 1/4;
         grid-row:1
       }
         &__img {
-        width:450px;
+        width:100%;
         }
     }
     .project {
@@ -89,10 +99,22 @@
         &__one {
             grid-column:1;
             grid-row: 2;
+            
             }
+
+            &__four  {
+               display: unset; 
+            }
+            &__five {
+                display: unset;
+            }
+            &__six {
+                display: unset;
+            }
+                
            
         .right {
-            padding: 5px;
+            padding:10px;
             margin:0;
         }
 }
