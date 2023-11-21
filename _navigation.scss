@@ -26,6 +26,7 @@ div{
     
       
         &__button {
+
             font-size: 20px;
             visibility: visible;
             text-decoration: none;
@@ -33,7 +34,14 @@ div{
             color: black;
             opacity: 95%;
             padding: 15px 30px;
-            
+            border-radius:5px;
+            margin:2px;
+            transition:all 500ms ease;
+          
+            &:hover {
+                background-color: black;
+                color: white;
+            }
        }
 
        &__heading {

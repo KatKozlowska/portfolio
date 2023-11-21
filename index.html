@@ -10,9 +10,9 @@
  <nav class="nav">
     <h1 class="nav__heading"> Katarzyna Kozlowska.</h1>
     <div>
-    <a href="#" class="nav__button nav__button--about" >About</a>
-    <a href="#" class="nav__button nav__button--portfolio" >Portfolio</a>
-    <a href="#" class="nav__button nav__button-contact" >Contact</a>
+    <a href="#about" class="nav__button nav__button--about" >About</a>
+    <a href="#portfolio" class="nav__button nav__button--portfolio" >Portfolio</a>
+    <a href="#contact" class="nav__button nav__button-contact" >Contact</a>
     </div>
 </nav>
 
@@ -24,7 +24,7 @@
     animi tempora mollitia veniam aperiam.</p>
 </heading>
 
-<section class="about">
+<section class="about" id="about">
     <h3 class=" about__heading">About.</h3> 
     
     <img src="references/canada.jpg" alt="placeholder image" class=" about__img"> </img>
@@ -64,7 +64,7 @@
         </div>
 </section>
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <h3 class="portfolio__heading">Portfolio.</h3>
         <div class="project project__one">
             <img src="references/blank.jpg" alt="image placeholder"class="portfolio__img"></img>
@@ -124,14 +124,14 @@
         </div> 
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
     <h3 class="contact contact__heading">Get in touch.</h3>
     <button class="contact contact__button">contact</button>
 </section>
 
 
 <footer>
-    <!-- need to change buttons to a-tags so it opens new tab-->
+    <!-- need to change buttons to a-tags so it opens new tab for external links-->
     <button onClick = "location.href = 'https://www.linkedin.com/in/katarzyna-kozlowska-9a66a2147/';" class="button button__linked"> <img src="references/cib_linkedin-in.png"></button>
     <button onClick = "location.href = 'https://github.com/KatKozlowska';" class="button button__github"><img src="references/ant-design_github-filled.png"></button>
     <button class="button button__cv"><img src="references/academicons_cv.png"></button>

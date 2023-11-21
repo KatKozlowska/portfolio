@@ -30,6 +30,13 @@ div {
     color: black;
     opacity: 95%;
     padding: 15px 30px;
+    border-radius: 5px;
+    margin: 2px;
+    transition: all 500ms ease;
+  }
+  .nav__button:hover {
+    background-color: black;
+    color: white;
   }
   .nav__heading {
     font-size: 48px;
