@@ -31,11 +31,12 @@
     margin: 0 5px;
     align-content: center;
     border-radius: 50%;
-    color: white;
+    
     background-color: black;
      
     &--img {
       justify-content: center;
+      align-content: center;
      }
 }
     &__heading {
@@ -58,24 +59,41 @@
 
 @media screen and (min-width:768px) {
     .portfolio {
+
       display:grid;
-      grid-template-columns: repeat(3,30%);
-      grid-gap: 3%;
-      background-color: red;
-      color:white;
-    
+      grid-template-columns:1fr 1fr 1fr;
+      grid-template-rows:100px 500px 500px;
+      gap: 15px;
+      margin: 20px;
+
+      &__heading {
+        grid-column: 1/4;
+        grid-row:1
+      }
         &__img {
-        width: 100%;
+        width:450px;
         }
     }
     .project {
        
         &__heading {
-            
+        
+            margin:0;
+            padding:0; 
+            grid-row: 3;
             font-family: $font-headings;
             text-transform: uppercase;
             font-size: 32px;
             width:70%;
         }
-    }
+        &__one {
+            grid-column:1;
+            grid-row: 2;
+            }
+           
+        .right {
+            padding: 5px;
+            margin:0;
+        }
+}
 }

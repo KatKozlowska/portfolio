@@ -106,7 +106,7 @@ section {
     gap: 15px;
     margin: 20px;
     grid-template-columns: 1fr 1fr 1fr 100px 2fr;
-    grid-template-rows: 100px 200px 200px 200px;
+    grid-template-rows: 100px 200px 200px 100px;
   }
   .about__img {
     width: 500px;
@@ -146,6 +146,7 @@ section {
   div {
     justify-content: center;
     gap: 35px;
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 }
@@ -177,11 +178,11 @@ section {
   margin: 0 5px;
   align-content: center;
   border-radius: 50%;
-  color: white;
   background-color: black;
 }
 .project__button--img {
   justify-content: center;
+  align-content: center;
 }
 .project__heading {
   padding: 10px;
@@ -201,19 +202,34 @@ section {
 @media screen and (min-width: 768px) {
   .portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-gap: 3%;
-    background-color: red;
-    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 500px 500px;
+    gap: 15px;
+    margin: 20px;
+  }
+  .portfolio__heading {
+    grid-column: 1/4;
+    grid-row: 1;
   }
   .portfolio__img {
-    width: 100%;
+    width: 450px;
   }
   .project__heading {
+    margin: 0;
+    padding: 0;
+    grid-row: 3;
     font-family: Cormorant, serif;
     text-transform: uppercase;
     font-size: 32px;
     width: 70%;
+  }
+  .project__one {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .project .right {
+    padding: 5px;
+    margin: 0;
   }
 }
 .contact {
