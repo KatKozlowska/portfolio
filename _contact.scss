@@ -26,6 +26,14 @@
         border-radius: 2px;
         justify-content: center;
         opacity: 95%;
+        transition:all 250ms linear;
+
+        &:hover {
+            background-color: black;
+            color:white;
+            cursor:pointer;
+           
+        }
     
     }
 }

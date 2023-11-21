@@ -90,9 +90,12 @@
        display: flex;
        justify-content: flex-start;
         opacity: 70%;
-       
+        transition:transform 500ms ease;
+
         &:hover {
         opacity:100%;
+        transform:scale(1.05);
+
        }
 
        &__heading {

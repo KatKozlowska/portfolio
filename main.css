@@ -236,9 +236,11 @@ section {
     display: flex;
     justify-content: flex-start;
     opacity: 70%;
+    transition: transform 500ms ease;
   }
   .project:hover {
     opacity: 100%;
+    transform: scale(1.05);
   }
   .project__heading {
     margin: 0;
@@ -289,6 +291,12 @@ section {
   border-radius: 2px;
   justify-content: center;
   opacity: 95%;
+  transition: all 250ms linear;
+}
+.contact__button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
