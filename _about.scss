@@ -34,7 +34,7 @@ section {
         gap: 15px;
         grid-template-columns:1fr 1fr 1fr 100px 2fr;
         grid-template-rows:100px 200px 200px 100px ;
-        padding: 0 130px;
+        padding: 50px 130px;
     
         &__img {
         width: 500px;
@@ -47,8 +47,11 @@ section {
         grid-column-end:4 ;
         }
         &__text{
+        font-family: $font-body;
         grid-column:1/4;
         font-size: 20px;
+        padding:25px;
+        margin:0;
        
         }
     }

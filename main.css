@@ -21,7 +21,6 @@ div {
     height: 58px;
     display: flex;
     justify-content: space-between;
-    height: 58px;
   }
   .nav__button {
     font-size: 20px;
@@ -30,9 +29,11 @@ div {
     font-family: "Inter", sans-serif;
     color: black;
     opacity: 95%;
+    padding: 15px 30px;
   }
   .nav__heading {
     font-size: 48px;
+    margin: 0;
   }
   div {
     display: flex;
@@ -110,7 +111,7 @@ section {
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 100px 2fr;
     grid-template-rows: 100px 200px 200px 100px;
-    padding: 0 130px;
+    padding: 50px 130px;
   }
   .about__img {
     width: 500px;
@@ -123,8 +124,11 @@ section {
     grid-column-end: 4;
   }
   .about__text {
+    font-family: "Inter", sans-serif;
     grid-column: 1/4;
     font-size: 20px;
+    padding: 25px;
+    margin: 0;
   }
 }
 .skills {
@@ -146,10 +150,9 @@ section {
   }
   .skills__text {
     font-size: 20px;
-    padding: 40px 0;
     opacity: 95%;
   }
-  div {
+  .skills__img {
     justify-content: center;
     gap: 35px;
     margin-top: 50px;
@@ -221,9 +224,9 @@ section {
   .portfolio {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100px 400px 400px 100px;
+    grid-template-rows: 100px 600px 600x 100px;
     gap: 2%;
-    padding: 0 130px;
+    padding: 0 110px;
   }
   .portfolio__heading {
     grid-column: 1/4;
@@ -244,18 +247,46 @@ section {
   .project__one {
     grid-column: 1;
     grid-row: 2;
+    opacity: 70%;
+  }
+  .project__one:hover {
+    opacity: 100%;
+  }
+  .project__two {
+    opacity: 70%;
+  }
+  .project__two:hover {
+    opacity: 100%;
+  }
+  .project__three {
+    opacity: 70%;
+  }
+  .project__three:hover {
+    opacity: 100%;
   }
   .project__four {
     display: unset;
+    opacity: 70%;
+  }
+  .project__four:hover {
+    opacity: 100%;
   }
   .project__five {
     display: unset;
+    opacity: 70%;
+  }
+  .project__five:hover {
+    opacity: 100%;
   }
   .project__six {
     display: unset;
+    opacity: 70%;
+  }
+  .project__six:hover {
+    opacity: 100%;
   }
   .project .right {
-    padding: 10px;
+    padding: 25px 0;
     margin: 0;
   }
 }
@@ -283,6 +314,11 @@ section {
   opacity: 95%;
 }
 
+@media screen and (min-width: 768px) {
+  .contact__heading {
+    font-size: 120px;
+  }
+}
 footer {
   display: flex;
   justify-content: center;
