@@ -209,6 +209,9 @@ section {
 .project__six {
   display: none;
 }
+.project__sub {
+  display: none;
+}
 
 .right {
   width: 100%;
@@ -262,6 +265,9 @@ section {
     display: unset;
   }
   .project__six {
+    display: unset;
+  }
+  .project__sub {
     display: unset;
   }
   .project .right {

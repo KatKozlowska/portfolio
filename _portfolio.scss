@@ -59,6 +59,10 @@
         display:none;
     }
 
+    &__sub {
+        display: none;
+    }
+
 }
 
 .right {
@@ -123,6 +127,10 @@
         &__six {
             display: unset;  
         } 
+        &__sub {
+            display: unset;
+        }
+    
         
      
         .right {
