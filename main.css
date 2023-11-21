@@ -326,11 +326,14 @@ footer {
 }
 
 .button {
-  margin: 3px;
+  margin: 5px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
   border: none;
+}
+.button:hover {
+  cursor: pointer;
 }
 
 p {
