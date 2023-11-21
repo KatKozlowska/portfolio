@@ -8,6 +8,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
+  color: #333333;
 }
 
 div {
@@ -27,6 +28,8 @@ div {
     visibility: visible;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+    color: black;
+    opacity: 95%;
   }
   .nav__heading {
     font-size: 48px;
@@ -65,12 +68,14 @@ div {
     text-align: center;
     font-weight: lighter;
     padding: 0 130px;
+    color: #333333;
   }
   .intro__text {
     width: 40vw;
     align-items: left;
     font-size: 20px;
     padding: 0 135px;
+    opacity: 95%;
   }
 }
 section {
@@ -86,6 +91,7 @@ section {
   text-transform: uppercase;
   font-size: 32px;
   font-weight: lighter;
+  color: #333333;
 }
 .about__img {
   padding: 40px 0;
@@ -95,6 +101,7 @@ section {
 .about__text {
   margin: 40px 0;
   font-size: 23px;
+  opacity: 95%;
 }
 
 @media screen and (min-width: 768px) {
@@ -135,10 +142,12 @@ section {
     font-family: Cormorant, serif;
     font-size: 32px;
     text-transform: uppercase;
+    color: #333333;
   }
   .skills__text {
     font-size: 20px;
     padding: 40px 0;
+    opacity: 95%;
   }
   div {
     justify-content: center;
@@ -161,6 +170,7 @@ section {
   font-weight: lighter;
   font-size: 32px;
   font-weight: 700;
+  color: #333333;
 }
 
 .project {
@@ -187,6 +197,7 @@ section {
   text-transform: uppercase;
   font-size: 32px;
   width: 60%;
+  color: #333333;
 }
 .project__four {
   display: none;
@@ -257,6 +268,7 @@ section {
   font-family: Cormorant, serif;
   font-size: 60px;
   font-weight: lighter;
+  color: #333333;
 }
 .contact__button {
   height: 79px;
@@ -267,6 +279,7 @@ section {
   background-color: white;
   border-radius: 2px;
   justify-content: center;
+  opacity: 95%;
 }
 
 footer {

@@ -12,6 +12,7 @@ section {
         text-transform: uppercase;
         font-size: 32px;
         font-weight:lighter;
+        color: $color-headings;
     }
     &__img {
         padding: 40px 0;
@@ -22,6 +23,7 @@ section {
     &__text {
         margin: 40px 0;
         font-size:23px ;
+        opacity: 95%;
     }      
 }
 

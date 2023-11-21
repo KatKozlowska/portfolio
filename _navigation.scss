@@ -5,9 +5,11 @@
     justify-content: center;
     
     &__heading {
+    
       text-transform: uppercase;
       font-weight: 700;
       font-size: 24px;
+      color: $color-headings;
     }
 }
 div{
@@ -28,6 +30,8 @@ div{
             visibility: visible;
             text-decoration: none;
             font-family: $font-body;  
+            color: black;
+            opacity: 95%;
        }
 
        &__heading {
