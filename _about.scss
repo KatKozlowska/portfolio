@@ -16,12 +16,12 @@ section {
     }
     &__img {
         padding: 40px 0;
-      align-items: center;
+        align-items: center;
         width:85vw;
         
     }
     &__text {
-        margin: 40px 0;
+        margin: 40px ;
         font-size:23px ;
         opacity: 95%;
     }      
@@ -49,6 +49,7 @@ section {
         &__text{
         grid-column:1/4;
         font-size: 20px;
+       
         }
     }
 }
