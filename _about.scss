@@ -30,9 +30,9 @@ section {
     .about {
         display: grid;
         gap: 15px;
-        margin: 20px;
         grid-template-columns:1fr 1fr 1fr 100px 2fr;
         grid-template-rows:100px 200px 200px 100px ;
+        padding: 0 130px;
     
         &__img {
         width: 500px;
