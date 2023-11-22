@@ -179,7 +179,7 @@ section {
     display: unset;
     display: flex;
     flex-direction: column;
-    padding: 0 130px;
+    padding: 0 40px;
   }
   .skills__heading {
     font-family: Cormorant, serif;
@@ -190,12 +190,29 @@ section {
   .skills__text {
     font-size: 20px;
     opacity: 95%;
+    width: 90vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills {
+    display: unset;
+    display: flex;
+    flex-direction: column;
+    padding: 0 130px;
   }
   .skills__img {
     justify-content: center;
     gap: 35px;
     margin-top: 50px;
     margin-bottom: 100px;
+  }
+  .skills__text {
+    font-size: 20px;
+    opacity: 95%;
+  }
+  .skills__heading {
+    font-family: Cormorant, serif;
+    font-size: 32px;
   }
 }
 .portfolio {
@@ -260,6 +277,18 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+  .project {
+    display: flex;
+    justify-content: center;
+  }
+  .project__five {
+    display: none;
+  }
+  .project__six {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
   .portfolio {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -344,7 +373,12 @@ section {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 786px) {
+  .contact__heading {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 1024px) {
   .contact__heading {
     font-size: 120px;
   }
