@@ -26,21 +26,23 @@
         border-radius: 2px;
         justify-content: center;
         opacity: 95%;
-        transition:all 250ms linear;
 
-        &:hover {
-            background-color: black;
-            color:white;
-            cursor:pointer;
-           
-        }
-    
     }
 }
 
 @media screen and (min-width:786px) {
-    .contact__heading {
-        font-size: 90px;
+    .contact {
+        &__heading{
+            font-size: 100px;
+        }
+        &__button {
+            transition:all 250ms linear;
+            &:hover {
+                background-color: black;
+                color:white;
+                cursor:pointer;
+            }
+        }
     }
 }
 

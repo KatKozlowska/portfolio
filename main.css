@@ -17,7 +17,7 @@ div {
 
 @media screen and (min-width: 768px) {
   .nav__heading {
-    font-size: 35px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -365,17 +365,19 @@ section {
   border-radius: 2px;
   justify-content: center;
   opacity: 95%;
-  transition: all 250ms linear;
-}
-.contact__button:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 786px) {
   .contact__heading {
-    font-size: 90px;
+    font-size: 100px;
+  }
+  .contact__button {
+    transition: all 250ms linear;
+  }
+  .contact__button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 1024px) {
