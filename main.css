@@ -363,7 +363,7 @@ section {
   text-transform: uppercase;
   background-color: white;
   color: #333333;
-  border-radius: 2px;
+  border-radius: 2px solid #333333;
   justify-content: center;
   opacity: 95%;
 }
