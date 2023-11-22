@@ -27,18 +27,17 @@
 
         display:flex;
         flex-direction: column;
-        padding: 15px 20px;
+        
         
     
         
         &__heading {
            
             font-family: $font-headings;
-            font-size: 110px;
+            font-size: 120px;
             align-items: center;
             text-align: center;
             font-weight:lighter;
-            padding: 0 130px;
             color: $color-headings;
         }
 
