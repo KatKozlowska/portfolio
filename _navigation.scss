@@ -16,7 +16,16 @@ div{
     display:none;
 }
 
+
 @media screen and (min-width: 768px) {
+.nav__heading {
+    font-size:35px;
+}
+    
+
+}
+
+@media screen and (min-width: 1024px) {
 
     .nav {
         padding: 66px 100px;
