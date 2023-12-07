@@ -154,7 +154,6 @@ section {
   }
   .about__img {
     width: 500px;
-    height: 600px;
     grid-row: 2/4;
     grid-column: 5/6;
   }
